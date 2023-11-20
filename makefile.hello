@@ -1,5 +1,0 @@
-all:
-	gcc -shared -fPIC -lpthread -o hello.so hello.c
-
-clean:
-	rm -rf hello.o hello.so
